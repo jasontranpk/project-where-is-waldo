@@ -1,5 +1,5 @@
 import waldoImg from '../images/waldo-img.jpg';
-
+import '../styles/Main.css';
 function Main() {
 	return (
 		<main>

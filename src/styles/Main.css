@@ -1,0 +1,18 @@
+main {
+	flex-grow: 2;
+	display: flex;
+	flex-direction: column;
+}
+.waldo-img img {
+	width: 100%;
+}
+.status {
+	margin: 30px auto;
+	color: green;
+}
+.leader-board {
+	padding: 30px;
+	text-align: left;
+	border-top: 1px solid black;
+	flex-grow: 2;
+}

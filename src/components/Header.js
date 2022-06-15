@@ -1,7 +1,7 @@
 import waldoHeadImg from '../images/waldo.jpeg';
 import odlawHeadImg from '../images/odlaw.jpg';
 import wizardHeadImg from '../images/wizard.jpeg';
-
+import '../styles/Header.css';
 function Header() {
 	return (
 		<header>
