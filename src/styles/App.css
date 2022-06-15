@@ -1,0 +1,77 @@
+.App {
+	text-align: center;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+/* HEADER */
+header {
+	min-height: 150px;
+}
+.small-img {
+	width: 50px;
+	height: 50px;
+}
+.character-container {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+}
+/* Main */
+main {
+	flex-grow: 2;
+	display: flex;
+	flex-direction: column;
+}
+.waldo-img img {
+	width: 100%;
+}
+.status {
+	margin: 30px auto;
+	color: green;
+}
+.leader-board {
+	padding: 30px;
+	text-align: left;
+	border-top: 1px solid black;
+	flex-grow: 2;
+}
+/* Footer */
+footer {
+}
