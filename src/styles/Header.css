@@ -1,5 +1,11 @@
 header {
-	min-height: 150px;
+	min-height: 160px;
+	margin-top: 0;
+	padding-top: 0;
+}
+header h1 {
+	margin-top: -30px;
+	padding-top: 0;
 }
 .small-img {
 	width: 50px;
@@ -8,5 +14,7 @@ header {
 .character-container {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 30px;
+	margin-top: 40px;
 }

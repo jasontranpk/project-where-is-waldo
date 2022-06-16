@@ -1,0 +1,14 @@
+.leader-board {
+	padding: 15px;
+}
+
+.leader-board p {
+	font-weight: 900;
+	font-size: 1.5em;
+}
+.leader-board ol {
+}
+.leader-board ol li {
+	margin-bottom: 15px;
+	font-style: italic;
+}
